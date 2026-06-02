@@ -94,7 +94,6 @@ h1 {
 
 .content-hero > h1 {
     font-size: 96px;
-
 }
 
 .content-hero > p {
@@ -168,19 +167,15 @@ h1 {
 
 #video {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #ffffff;
     background-image: url(/src/assets/images/image\ 103.png);
 }
 
-.content-video {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 32px;
-}
-
 #tipos {
-
+    background-image: url(/src/assets/images/image\ 103.png);
+    color: #ffffff;
 
 }
 
@@ -189,41 +184,73 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 36px;
-   
+
+    color: #ffffff;
+}
+
+.content-tipos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-tipos h1 {
+    color: #FF3399;
 }
 
 .content-sangue {
+    border: 1px solid #CCFF00;
+    border-radius: 8px;
+
     display: flex;
     flex-direction: column;
-    
-    
+    align-items: center;
+
+    margin: 10px;
+
 }
 
 .content-tema {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   border: 1px solid #CCFF00;
+   border-radius: 8px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    
+   margin: 10px;
 }
 
 .content-conhecimento {
-    display: flex;
-    flex-direction: column;
-    
+    border: 1px solid #CCFF00;
+    border-radius: 8px;
 
-}
-
-.content-dupla {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin: 10px;
+}
+
+.content-dupla {
+    border: 1px solid #CCFF00;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px;
 }
 
 .content-batalhas {
+    border: 1px solid #CCFF00;
+    border-radius: 8px;
+
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    
+    align-items: center;
+
+    margin: 10px;
 }
 
 #eventos {
@@ -242,21 +269,7 @@ h1 {
 
 }
 
-.content-grc {
-    display: flex;
-    align-items: center;
-    gap: 98px;
-    padding: 42px;
-}
 
-#CTA {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #ffffff;
-    background-image: url(/src/assets/images/image\ 103.png);
-
-}
 
 .content.cta {
     display: flex;
@@ -266,9 +279,6 @@ h1 {
     padding: 24px 70px;
 }
 
-.btn-primary {
-
-}
 
 #Batalha {
     display: flex;
@@ -309,4 +319,25 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
 }
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: url(/src/assets/images/image\ 103.png);
+    color: #ffffff;
+
+}
+
+#cta > .content-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
 

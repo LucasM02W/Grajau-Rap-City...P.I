@@ -40,7 +40,6 @@ h1 {
 
     background-image: url(/src/assets/images/hero-image.png);
     
-
 }
 
 .header-top {
@@ -225,7 +224,89 @@ h1 {
     flex-direction: column;
     align-items: flex-end;
     
+}
 
-    
+#eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-image: url(/src/assets/images/image\ 103.png);
     
 }
+
+.content-eventos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-grc {
+    display: flex;
+    align-items: center;
+    gap: 98px;
+    padding: 42px;
+}
+
+#CTA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-image: url(/src/assets/images/image\ 103.png);
+
+}
+
+.content.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    padding: 24px 70px;
+}
+
+.btn-primary {
+
+}
+
+#Batalha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-image: url(/src/assets/images/image\ 103.png);
+
+}
+
+.content-batalha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.grupos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.violencia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.periferia {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.oportunidades {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+

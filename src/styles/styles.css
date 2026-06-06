@@ -17,6 +17,9 @@
     height: 44px;
 
     border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .btn-secundary {
@@ -28,10 +31,32 @@
     width: 144px;
     height: 44px;
     border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-h1 {
+.btn-cta {
+    background-color: #FF3399;
+    color: #ffffff;
+    font-size: 20px;
 
+    width: 144px;
+    height: 44px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.destaque-verde {
+    color: #CCFF00;
+}
+
+.destaque-rosa {
+    color: #FF3399;
 }
 
 #header-hero {
@@ -47,7 +72,7 @@ h1 {
     align-items: center;
     justify-content: space-between;
 
-    padding: 16px 95px;
+    padding: 16px 5%;
 
     color: #ffffff;
     
@@ -96,17 +121,18 @@ h1 {
 }
 
 .content-hero > h1 {
-    font-size: 96px;
+    font-size: clamp(56px, 6vw, 96px);
 }
 
 .content-hero > p {
-    font-size: 24px;
+    font-size: clamp(18px, 2vw, 24px);
 }
 
 #sobre {
     display: flex;
     justify-content: space-between;
-    padding: 20px 74px;
+    align-items: center;
+    padding: 20px 5%;
     font-size: 48px;
     color: #ffffff;
 
@@ -127,7 +153,10 @@ h1 {
 .content-img {
     display: flex;  
     gap: 58px;
+
 }
+
+
 
 #bronx {
     display: flex;
@@ -135,7 +164,7 @@ h1 {
     gap: 40px;
     color: #ffffff;
     background-image: url(/src/assets/images/image\ 103.png);
-    padding: 73px;
+    padding: 50px 5%;
 }
 
 .content-bronx {
@@ -152,7 +181,7 @@ h1 {
     color: #ffffff;
     font-size: 24px ;
     background-image: url(/src/assets/images/image\ 103.png);
-    padding: 136px;
+    padding: 80px 5%;
     gap: 32px;
 }
 
@@ -173,7 +202,9 @@ h1 {
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-    background-image: url(/src/assets/images/image\ 103.png);
+    background-image: url(/src/assets/images/fundo-video.png);
+    height: 700px;
+    width: 100%;
 }
 
 #video  h1 {
@@ -198,6 +229,7 @@ h1 {
 .content-tipos {
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
 
 .content-tipos h1 {
@@ -291,7 +323,7 @@ h1 {
     padding: 30px;
     background-image: url(/src/assets/images/image\ 103.png);
     color: #ffffff;
-    border: 1px solid #CCFF00;
+    
 
 }
 
@@ -312,7 +344,7 @@ h1 {
     color: #ffffff;
     background-image: url(/src/assets/images/image\ 103.png);
 
-    padding: 50px;
+    padding: 100px;
 
 }
 
@@ -332,8 +364,14 @@ footer {
     flex-direction: column;
     padding: 30px;
     gap: 30px;
-    color: #ffffff;
-    background-color: #000000;
+    color: #CCFF00;
+    background-image: url(/src/assets/images/image\ 118.png);
+    font-size: 30px;
+}
+
+footer a {
+    color: #FF3399;
+    font-size: 40px;
 }
 
 .footer-content {

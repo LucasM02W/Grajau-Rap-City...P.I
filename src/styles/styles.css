@@ -202,13 +202,27 @@
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-    background-image: url(/src/assets/images/fundo-video.png);
+    background-image: url(/src/assets/images/image\ 103.png);
     height: 700px;
     width: 100%;
 }
 
-#video  h1 {
-    padding: 30px;
+.content-vb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meu-video {
+    height: 600px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.content-boneco {
+    display: flex;
+    align-items: flex-start;
+    background-image: url(/src/assets/images/boneco-video.svg);
 }
 
 #tipos {
@@ -237,32 +251,21 @@
 }
 
 .content-sangue {
-    border: 1px solid #CCFF00;
-    border-radius: 8px;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     margin: 10px;
 
 }
 
 .content-tema {
-   border: 1px solid #CCFF00;
-   border-radius: 8px;
-
    display: flex;
    flex-direction: column;
-   align-items: center;
    
-   margin: 10px;
+   margin: 10px;    
 }
 
 .content-conhecimento {
-    border: 1px solid #CCFF00;
-    border-radius: 8px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,9 +274,6 @@
 }
 
 .content-dupla {
-    border: 1px solid #CCFF00;
-    border-radius: 8px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,12 +282,9 @@
 }
 
 .content-batalhas {
-    border: 1px solid #CCFF00;
-    border-radius: 8px;
-
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 
     margin: 10px;
 }
@@ -334,12 +331,16 @@
     gap: 40px;
 }
 
+#cta p {
+    font-size: 24px;
+}
+
 
 #Batalha {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 30px;
+    
 
     color: #ffffff;
     background-image: url(/src/assets/images/image\ 103.png);
